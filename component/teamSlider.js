@@ -23,12 +23,12 @@ function TeamSlider() {
         breakpoint: 767,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToScroll: 1	,
           infinite: true,
           dots: true,
         },
       },
-      {
+	  {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
@@ -52,35 +52,28 @@ function TeamSlider() {
         >
           <div className="dlab-team style-1 m-b10">
             <div className="dlab-media">
-              <img src="images/Offices/coimbatore.jpg" alt="" />
+              
+                <img src="images/team/pic1.jpg" alt="" />
+              
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h4 className="dlab-name">
-                  <a>COIMBATORE</a>
+                  <a href="/team-1">Alina Jia</a>
                 </h4>
-                <span className="dlab-position">Description</span>
+                <span className="dlab-position">Senior Designer</span>
               </div>
-              {/* <ul className="dlab-social-icon primary-light">
+              <ul className="dlab-social-icon primary-light">
                 <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
+                  <a href="https://en-gb.facebook.com/" className="fa fa-facebook"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
+                  <a href="https://www.instagram.com/" className="fa fa-instagram"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
+                  <a href="https://twitter.com/login?lang=en" className="fa fa-twitter"></a>
                 </li>
-              </ul> */}
+              </ul>
             </div>
           </div>
         </div>
@@ -91,35 +84,28 @@ function TeamSlider() {
         >
           <div className="dlab-team style-1 m-b10">
             <div className="dlab-media">
-              <img src="images/Offices/kochi.jpg" alt="" />
+             
+                <img src="images/team/pic2.jpg" alt="" />
+              
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h4 className="dlab-name">
-                  <a>KOCHI</a>
+                  <a href="/team-1">Suresh Doe</a>
                 </h4>
-                <span className="dlab-position">Description</span>
+                <span className="dlab-position">Senior Designer</span>
               </div>
-              {/* <ul className="dlab-social-icon primary-light">
+              <ul className="dlab-social-icon primary-light">
                 <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
+                  <a href="https://en-gb.facebook.com/" className="fa fa-facebook"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
+                  <a href="https://www.instagram.com/" className="fa fa-instagram"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
+                  <a href="https://twitter.com/login?lang=en" className="fa fa-twitter"></a>
                 </li>
-              </ul> */}
+              </ul>
             </div>
           </div>
         </div>
@@ -130,35 +116,26 @@ function TeamSlider() {
         >
           <div className="dlab-team style-1 m-b10">
             <div className="dlab-media">
-              <img src="images/Offices/dubai.jpg" alt="" />
+                <img src="images/team/pic3.jpg" alt="" />   
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h4 className="dlab-name">
-                  <a>DUBAI</a>
+                  <a href="/team-1">Domina Li</a>
                 </h4>
-                <span className="dlab-position">Description</span>
+                <span className="dlab-position">Senior Designer</span>
               </div>
-              {/* <ul className="dlab-social-icon primary-light">
+              <ul className="dlab-social-icon primary-light">
                 <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
+                  <a href="https://en-gb.facebook.com/" className="fa fa-facebook"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
+                  <a href="https://www.instagram.com/" className="fa fa-instagram"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
+                  <a href="https://twitter.com/login?lang=en" className="fa fa-twitter"></a>
                 </li>
-              </ul> */}
+              </ul>
             </div>
           </div>
         </div>
@@ -169,73 +146,56 @@ function TeamSlider() {
         >
           <div className="dlab-team style-1 m-b10">
             <div className="dlab-media">
-              <img src="images/Offices/muscat.jpg" alt="" />
+                <img src="images/team/pic1.jpg" alt="" />
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h4 className="dlab-name">
-                  <a>MUSCAT</a>
+                  <a href="/team-1">Alina Jia</a>
                 </h4>
-                <span className="dlab-position">Description</span>
+                <span className="dlab-position">Senior Designer</span>
               </div>
-              {/* <ul className="dlab-social-icon primary-light">
+              <ul className="dlab-social-icon primary-light">
                 <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
+                  <a href="https://en-gb.facebook.com/" className="fa fa-facebook"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
+                  <a href="https://www.instagram.com/" className="fa fa-instagram"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
+                  <a href="https://twitter.com/login?lang=en" className="fa fa-twitter"></a>
                 </li>
-              </ul> */}
+              </ul>
             </div>
           </div>
         </div>
-
-        {/* <div
+        <div
           className="item wow fadeInUp"
           data-wow-duration="2s"
           data-wow-delay="0.5s"
         >
           <div className="dlab-team style-1 m-b10">
             <div className="dlab-media">
-              <img src="images/team/pic2.jpg" alt="" />
+             
+                <img src="images/team/pic2.jpg" alt="" />
+              
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h4 className="dlab-name">
-                  <a >Suresh Doe</a>
+                  <a href="/team-1">Suresh Doe</a>
                 </h4>
-                <span className="dlab-position">Description</span>
+                <span className="dlab-position">Senior Designer</span>
               </div>
               <ul className="dlab-social-icon primary-light">
                 <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
+                  <a href="https://en-gb.facebook.com/" className="fa fa-facebook"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
+                  <a href="https://www.instagram.com/" className="fa fa-instagram"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
+                  <a href="https://twitter.com/login?lang=en" className="fa fa-twitter"></a>
                 </li>
               </ul>
             </div>
@@ -248,33 +208,26 @@ function TeamSlider() {
         >
           <div className="dlab-team style-1 m-b10">
             <div className="dlab-media">
-              <img src="images/team/pic3.jpg" alt="" />
+              
+                <img src="images/team/pic3.jpg" alt="" />
+              
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h4 className="dlab-name">
-                  <a >Domina Li</a>
+                  <a href="/team-1">Domina Li</a>
                 </h4>
-                <span className="dlab-position">Description</span>
+                <span className="dlab-position">Senior Designer</span>
               </div>
               <ul className="dlab-social-icon primary-light">
                 <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
+                  <a href="https://en-gb.facebook.com/" className="fa fa-facebook"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
+                  <a href="https://www.instagram.com/" className="fa fa-instagram"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
+                  <a href="https://twitter.com/login?lang=en" className="fa fa-twitter"></a>
                 </li>
               </ul>
             </div>
@@ -287,33 +240,26 @@ function TeamSlider() {
         >
           <div className="dlab-team style-1 m-b10">
             <div className="dlab-media">
-              <img src="images/team/pic1.jpg" alt="" />
+             
+                <img src="images/team/pic1.jpg" alt="" />
+              
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h4 className="dlab-name">
-                  <a >Alina Jia</a>
+                  <a href="/team-1">Alina Jia</a>
                 </h4>
-                <span className="dlab-position">Description</span>
+                <span className="dlab-position">Senior Designer</span>
               </div>
               <ul className="dlab-social-icon primary-light">
                 <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
+                  <a href="https://en-gb.facebook.com/" className="fa fa-facebook"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
+                  <a href="https://www.instagram.com/" className="fa fa-instagram"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
+                  <a href="https://twitter.com/login?lang=en" className="fa fa-twitter"></a>
                 </li>
               </ul>
             </div>
@@ -326,33 +272,26 @@ function TeamSlider() {
         >
           <div className="dlab-team style-1 m-b10">
             <div className="dlab-media">
-              <img src="images/team/pic2.jpg" alt="" />
+              
+                <img src="images/team/pic2.jpg" alt="" />
+              
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h4 className="dlab-name">
-                  <a >Suresh Doe</a>
+                  <a href="/team-1">Suresh Doe</a>
                 </h4>
-                <span className="dlab-position">Description</span>
+                <span className="dlab-position">Senior Designer</span>
               </div>
               <ul className="dlab-social-icon primary-light">
                 <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
+                  <a href="https://en-gb.facebook.com/" className="fa fa-facebook"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
+                  <a href="https://www.instagram.com/" className="fa fa-instagram"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
+                  <a href="https://twitter.com/login?lang=en" className="fa fa-twitter"></a>
                 </li>
               </ul>
             </div>
@@ -365,38 +304,31 @@ function TeamSlider() {
         >
           <div className="dlab-team style-1 m-b10">
             <div className="dlab-media">
-              <img src="images/team/pic3.jpg" alt="" />
+              
+                <img src="images/team/pic3.jpg" alt="" />
+             
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h4 className="dlab-name">
-                  <a >Domina Li</a>
+                  <a href="/team-1">Domina Li</a>
                 </h4>
-                <span className="dlab-position">Description</span>
+                <span className="dlab-position">Senior Designer</span>
               </div>
               <ul className="dlab-social-icon primary-light">
                 <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
+                  <a href="https://en-gb.facebook.com/" className="fa fa-facebook"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
+                  <a href="https://www.instagram.com/" className="fa fa-instagram"></a>
                 </li>
                 <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
+                  <a href="https://twitter.com/login?lang=en" className="fa fa-twitter"></a>
                 </li>
               </ul>
             </div>
           </div>
-        </div> */}
+        </div>
       </Slider>
     </>
   );

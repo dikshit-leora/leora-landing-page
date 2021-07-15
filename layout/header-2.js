@@ -1,11 +1,13 @@
-import Link from 'next/link';
+
+
+  import Link from 'next/link';
 import { useState } from 'react';
-function Header2() {
+function Header() {
     const [show, setShow] = useState(false);
     const [open, setOpen] = useState("home");
     return (
         <>
-            <header className="site-header mo-left header-transparent d-none">
+            <header className="site-header mo-left header-transparent d-none" id="fix-header">
                 <div className="container">
                     <div className="top-bar">
                         <div className="row d-flex justify-content-between align-items-center">
@@ -282,4 +284,4 @@ function Header2() {
     );
 }
 
-export default Header2;
+export default Header;

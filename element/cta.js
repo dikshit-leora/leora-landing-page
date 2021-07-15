@@ -1,45 +1,26 @@
+import Link from "next/link";
+
+
 function Cta() {
   return (
     <>
-      <section
-        style={{
-          //   backgroundImage: "url(images/background/bg5.jpg)",
-          backgroundSize: "cover",
-        }}
-      >
-        <div className="container">
-          <div className="row action-box style-1 align-items-center">
-            <div
-              className="col-xl-12 wow fadeIn"
-              data-wow-duration="2s"
-              data-wow-delay="0.2s"
-            >
-              <div className="section-head style-1 text-center">
-                <h2 className="title">Who we Are</h2>
-                <p
-                  data-wow-duration="1.4s"
-                  data-wow-delay="1.5s"
-                  className="wow fadeInUp m-b30"
-                >
-                  Sure, We are a young and dynamic digital transformation hub,
-                  committed at providing the right software solutions and
-                  resources you need to become successful. Since 2013, we have
-                  been a visionary and a reliable software engineering for the
-                  world class brands. Our sworn duty is to act in the best
-                  interests of our clients and companies, helping them untangle
-                  the complex issues that always emerge during their digital
-                  evolution journey.As a leader in technology exploring, Leora’s
-                  business philosophy is to assure the highest quality product,
-                  and timely delivery of solutions. In tune with this principle,
-                  everything we make is designed to help you do just that...
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section style={{"backgroundImage":"url(images/background/bg5.jpg)","backgroundSize":"cover"}}>
+			<div className="container">
+				<div className="row action-box style-1 align-items-center">
+					<div className="col-xl-7 col-lg-8 col-md-8 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div className="section-head style-1">
+							<h6 className="sub-title bgl-primary m-b20 text-primary">More With Us</h6>
+							<h2 className="title">You Want To Showcase Your Website In Top Join With Us</h2>
+						</div>
+					</div>
+					<div className="col-xl-5 col-lg-4 col-md-4 text-right m-b30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+						<Link href="contact-us-1"><a  className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Join Now</a></Link>
+					</div>
+				</div>
+			</div>
+		</section>
     </>
-  );
+  )
 }
 
 export default Cta;

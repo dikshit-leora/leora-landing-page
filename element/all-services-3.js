@@ -17,7 +17,7 @@ function AllServices3() {
 							<div className="icon-content">
 								<h4 className="dlab-title m-b15">Strategy & Research</h4>
 								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
-								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
+								{/* <Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link> */}
 							</div>
 						</div>
 					</div>
@@ -29,7 +29,7 @@ function AllServices3() {
 							<div className="icon-content">
 								<h4 className="dlab-title m-b15">Web Development</h4>
 								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
-								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
+								{/* <Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link> */}
 							</div>
 						</div>
 					</div>
@@ -41,7 +41,7 @@ function AllServices3() {
 							<div className="icon-content">
 								<h4 className="dlab-title m-b15">Web Solution</h4>
 								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
-								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
+								{/* <Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link> */}
 							</div>
 						</div>
 					</div>
@@ -53,7 +53,7 @@ function AllServices3() {
 							<div className="icon-content">
 								<h4 className="dlab-title m-b15">Company Branding</h4>
 								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
-								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
+								{/* <Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link> */}
 							</div>
 						</div>
 					</div>
@@ -65,7 +65,7 @@ function AllServices3() {
 							<div className="icon-content">
 								<h4 className="dlab-title m-b15">SEO & Marketing</h4>
 								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
-								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
+								{/* <Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link> */}
 							</div>
 						</div>
 					</div>
@@ -77,7 +77,7 @@ function AllServices3() {
 							<div className="icon-content">
 								<h4 className="dlab-title m-b15">24X7 Support</h4>
 								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
-								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
+								{/* <Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link> */}
 							</div>
 						</div>
 					</div>
