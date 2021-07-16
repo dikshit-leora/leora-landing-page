@@ -4,6 +4,7 @@ import Job from "../element/Job/Job";
 import { Modal } from "react-bootstrap";
 import { useState } from "react";
 import JobForm from "../element/Job/JobForm";
+import Footer from "../layout/footer";
 
 function Careers() {
   const [open, setOpen] = useState(false);
@@ -89,6 +90,7 @@ function Careers() {
           </div>
         </section>
       </div>
+      <Footer />
     </>
   );
 }
