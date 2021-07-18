@@ -4,27 +4,17 @@ function OfficesSlider() {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: false,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    autoplay: true,
     arrows: false,
-    speed: 5000,
+    speed: 3500,
     responsive: [
       {
-        breakpoint: 1000,
+        breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
           dots: true,
         },
       },
@@ -33,7 +23,6 @@ function OfficesSlider() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: true,
           dots: false,
         },
       },
@@ -43,44 +32,26 @@ function OfficesSlider() {
     <>
       <Slider
         {...settings}
-        className="team-carousel1 owl owl-carousel owl-none owl-theme owl-dots-primary-full"
+        className="team-carousel2 owl owl-carousel owl-none owl-theme owl-dots-primary-full"
       >
         <div
           className="item wow fadeInUp"
           data-wow-duration="2s"
           data-wow-delay="0.1s"
         >
-          <div className="dlab-team style-1 m-b10">
+          <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
-              <img src="images/Offices/coimbatore.jpg" alt="" />
+              <a>
+                <img src="images/offices/coimbatore.jpg" alt="" />
+              </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
-                <h4 className="dlab-name">
-                  <a>COIMBATORE</a>
-                </h4>
-                <span className="dlab-position">Description</span>
+                <h3 className="dlab-name">
+                  <a>Coimbatore</a>
+                </h3>
+                {/* <span className="dlab-position">Senior Designer</span> */}
               </div>
-              {/* <ul className="dlab-social-icon primary-light">
-                <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
-                </li>
-              </ul> */}
             </div>
           </div>
         </div>
@@ -89,37 +60,19 @@ function OfficesSlider() {
           data-wow-duration="2s"
           data-wow-delay="0.2s"
         >
-          <div className="dlab-team style-1 m-b10">
+          <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
-              <img src="images/Offices/kochi.jpg" alt="" />
+              <a>
+                <img src="images/offices/dubai.jpg" alt="" />
+              </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
-                <h4 className="dlab-name">
-                  <a>KOCHI</a>
-                </h4>
-                <span className="dlab-position">Description</span>
+                <h3 className="dlab-name">
+                  <a>Dubai</a>
+                </h3>
+                {/* <span className="dlab-position">Senior Designer</span> */}
               </div>
-              {/* <ul className="dlab-social-icon primary-light">
-                <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
-                </li>
-              </ul> */}
             </div>
           </div>
         </div>
@@ -128,37 +81,19 @@ function OfficesSlider() {
           data-wow-duration="2s"
           data-wow-delay="0.3s"
         >
-          <div className="dlab-team style-1 m-b10">
+          <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
-              <img src="images/Offices/dubai.jpg" alt="" />
+              <a>
+                <img src="images/offices/kochi.jpg" alt="" />
+              </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
-                <h4 className="dlab-name">
-                  <a>DUBAI</a>
-                </h4>
-                <span className="dlab-position">Description</span>
+                <h3 className="dlab-name">
+                  <a>Kochi</a>
+                </h3>
+                {/* <span className="dlab-position">Senior Designer</span> */}
               </div>
-              {/* <ul className="dlab-social-icon primary-light">
-                <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
-                </li>
-              </ul> */}
             </div>
           </div>
         </div>
@@ -167,236 +102,43 @@ function OfficesSlider() {
           data-wow-duration="2s"
           data-wow-delay="0.4s"
         >
-          <div className="dlab-team style-1 m-b10">
+          <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
-              <img src="images/Offices/muscat.jpg" alt="" />
+              <a>
+                <img src="images/offices/muscat.jpg" alt="" />
+              </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
-                <h4 className="dlab-name">
-                  <a>MUSCAT</a>
-                </h4>
-                <span className="dlab-position">Description</span>
+                <h3 className="dlab-name">
+                  <a>Muscat</a>
+                </h3>
+                {/* <span className="dlab-position">Senior Designer</span> */}
               </div>
-              {/* <ul className="dlab-social-icon primary-light">
-                <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
-                </li>
-              </ul> */}
             </div>
           </div>
         </div>
-
-        {/* <div
+        <div
           className="item wow fadeInUp"
           data-wow-duration="2s"
           data-wow-delay="0.5s"
         >
-          <div className="dlab-team style-1 m-b10">
+          <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
-              <img src="images/team/pic2.jpg" alt="" />
+              <a>
+                <img src="images/offices/muscat.jpg" alt="" />
+              </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
-                <h4 className="dlab-name">
-                  <a >Suresh Doe</a>
-                </h4>
-                <span className="dlab-position">Description</span>
+                <h3 className="dlab-name">
+                  <a>Muscat</a>
+                </h3>
+                {/* <span className="dlab-position">Senior Designer</span> */}
               </div>
-              <ul className="dlab-social-icon primary-light">
-                <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
-        <div
-          className="item wow fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="0.6s"
-        >
-          <div className="dlab-team style-1 m-b10">
-            <div className="dlab-media">
-              <img src="images/team/pic3.jpg" alt="" />
-            </div>
-            <div className="dlab-content">
-              <div className="clearfix">
-                <h4 className="dlab-name">
-                  <a >Domina Li</a>
-                </h4>
-                <span className="dlab-position">Description</span>
-              </div>
-              <ul className="dlab-social-icon primary-light">
-                <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div
-          className="item wow fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="0.7s"
-        >
-          <div className="dlab-team style-1 m-b10">
-            <div className="dlab-media">
-              <img src="images/team/pic1.jpg" alt="" />
-            </div>
-            <div className="dlab-content">
-              <div className="clearfix">
-                <h4 className="dlab-name">
-                  <a >Alina Jia</a>
-                </h4>
-                <span className="dlab-position">Description</span>
-              </div>
-              <ul className="dlab-social-icon primary-light">
-                <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div
-          className="item wow fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="0.8s"
-        >
-          <div className="dlab-team style-1 m-b10">
-            <div className="dlab-media">
-              <img src="images/team/pic2.jpg" alt="" />
-            </div>
-            <div className="dlab-content">
-              <div className="clearfix">
-                <h4 className="dlab-name">
-                  <a >Suresh Doe</a>
-                </h4>
-                <span className="dlab-position">Description</span>
-              </div>
-              <ul className="dlab-social-icon primary-light">
-                <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div
-          className="item wow fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="0.9s"
-        >
-          <div className="dlab-team style-1 m-b10">
-            <div className="dlab-media">
-              <img src="images/team/pic3.jpg" alt="" />
-            </div>
-            <div className="dlab-content">
-              <div className="clearfix">
-                <h4 className="dlab-name">
-                  <a >Domina Li</a>
-                </h4>
-                <span className="dlab-position">Description</span>
-              </div>
-              <ul className="dlab-social-icon primary-light">
-                <li>
-                  <a
-                    href="https://en-gb.facebook.com/"
-                    className="fa fa-facebook"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="fa fa-instagram"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/login?lang=en"
-                    className="fa fa-twitter"
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div> */}
       </Slider>
     </>
   );

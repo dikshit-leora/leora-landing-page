@@ -9,7 +9,7 @@ import Projects from "../element/projects";
 import Quote from "../element/quote";
 import Service from "../element/service";
 import Slider2 from "../element/slider-2";
-import Team from "../element/team";
+import Offices from "../element/Offices";
 // import Pricing from "../element/pricing";
 // import Blog from "../element/blog";
 // import Testimonial from "../element/testimonial";
@@ -31,7 +31,7 @@ function Home() {
         <Features />
         <Projects />
         <Newsletter />
-        <Team />
+        <Offices />
         {/* <Pricing />
         <Testimonial />
         <Blog /> */}
