@@ -41,14 +41,16 @@ function OfficesSlider() {
         >
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
-              <a>
+              <a href="javascript:void(0);" style={{ cursor: "default" }}>
                 <img src="images/offices/coimbatore.jpg" alt="" />
               </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h3 className="dlab-name">
-                  <a>Coimbatore</a>
+                  <a href="javascript:void(0);" style={{ cursor: "default" }}>
+                    Coimbatore
+                  </a>
                 </h3>
                 {/* <span className="dlab-position">Senior Designer</span> */}
               </div>
@@ -62,14 +64,16 @@ function OfficesSlider() {
         >
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
-              <a>
+              <a href="javascript:void(0);" style={{ cursor: "default" }}>
                 <img src="images/offices/dubai.jpg" alt="" />
               </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h3 className="dlab-name">
-                  <a>Dubai</a>
+                  <a href="javascript:void(0);" style={{ cursor: "default" }}>
+                    Dubai
+                  </a>
                 </h3>
                 {/* <span className="dlab-position">Senior Designer</span> */}
               </div>
@@ -83,14 +87,16 @@ function OfficesSlider() {
         >
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
-              <a>
+              <a href="javascript:void(0);" style={{ cursor: "default" }}>
                 <img src="images/offices/kochi.jpg" alt="" />
               </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h3 className="dlab-name">
-                  <a>Kochi</a>
+                  <a href="javascript:void(0);" style={{ cursor: "default" }}>
+                    Kochi
+                  </a>
                 </h3>
                 {/* <span className="dlab-position">Senior Designer</span> */}
               </div>
@@ -104,14 +110,16 @@ function OfficesSlider() {
         >
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
-              <a>
+              <a href="javascript:void(0);" style={{ cursor: "default" }}>
                 <img src="images/offices/muscat.jpg" alt="" />
               </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h3 className="dlab-name">
-                  <a>Muscat</a>
+                  <a href="javascript:void(0);" style={{ cursor: "default" }}>
+                    Muscat
+                  </a>
                 </h3>
                 {/* <span className="dlab-position">Senior Designer</span> */}
               </div>
@@ -125,14 +133,16 @@ function OfficesSlider() {
         >
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
-              <a>
+              <a href="javascript:void(0);" style={{ cursor: "default" }}>
                 <img src="images/offices/muscat.jpg" alt="" />
               </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h3 className="dlab-name">
-                  <a>Muscat</a>
+                  <a href="javascript:void(0);" style={{ cursor: "default" }}>
+                    Muscat
+                  </a>
                 </h3>
                 {/* <span className="dlab-position">Senior Designer</span> */}
               </div>
