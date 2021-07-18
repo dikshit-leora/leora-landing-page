@@ -42,11 +42,7 @@ function OfficesSlider() {
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
               <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                <img
-                  src="images/offices/coimbatore.jpg"
-                  style={{ minHeight: 200 }}
-                  alt=""
-                />
+                <img src="images/Offices/coimbatore.jpg" alt="" />
               </a>
             </div>
             <div className="dlab-content">
@@ -69,11 +65,7 @@ function OfficesSlider() {
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
               <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                <img
-                  src="images/offices/dubai.jpg"
-                  style={{ minHeight: 200 }}
-                  alt=""
-                />
+                <img src="images/Offices/dubai.jpg" alt="" />
               </a>
             </div>
             <div className="dlab-content">
@@ -96,11 +88,7 @@ function OfficesSlider() {
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
               <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                <img
-                  src="images/offices/kochi.jpg"
-                  style={{ minHeight: 200 }}
-                  alt=""
-                />
+                <img src="images/Offices/kochi.jpg" alt="" />
               </a>
             </div>
             <div className="dlab-content">
@@ -123,11 +111,7 @@ function OfficesSlider() {
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
               <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                <img
-                  src="images/offices/muscat.jpg"
-                  style={{ minHeight: 200 }}
-                  alt=""
-                />
+                <img src="images/Offices/muscat.jpg" alt="" />
               </a>
             </div>
             <div className="dlab-content">
@@ -150,11 +134,7 @@ function OfficesSlider() {
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
               <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                <img
-                  src="images/offices/muscat.jpg"
-                  style={{ minHeight: 200 }}
-                  alt=""
-                />
+                <img src="images/Offices/muscat.jpg" alt="" />
               </a>
             </div>
             <div className="dlab-content">
