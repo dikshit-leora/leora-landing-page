@@ -22,28 +22,27 @@ function AboutUs() {
             >
               <div className="section-head style-1 mb-4">
                 <h6 className="sub-title bgl-primary m-b20 text-primary">
-                  About Us
+                  Our story
                 </h6>
-                <h2 className="title">
-                  How We Can Help You Achieve Your Business Goal
-                </h2>
+                <h2 className="title">Who We are ?</h2>
               </div>
               <p>
-                Integer pretium molestie nisl, non blandit lectus suscipit in.
-                Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt
-                consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat,
-                tortor velit suscipit orci, sed consectetur ante eros id urna.
-                Mauris luctus nulla ut pharetra tempor.
+                We were always fascinated with technology changing the face of a
+                company. However, for a long time, we had the vision to be part
+                of this digital revolution and help clients with the right
+                software solutions that can untangle their complex issues.
               </p>
               <p className="m-b30">
-                Mauris egestas eleifend sapien eu malesuada. Phasellus at metus
-                eget sapien tristique accumsan non sit amet augue.
+                Thus, with this initiative, we started the Leora LLP solution
+                where the client will be our success partner and will work
+                together as a team for finding the solution for real-life
+                problems.
               </p>
-              <img src="images/sign.png" alt="" />
-              <h4 className="m-b30">CEO Jhone Doe</h4>
-              <Link href="about-us-1">
+              {/* <img src="images/sign.png" alt="" />
+              <h4 className="m-b30">CEO Jhone Doe</h4> */}
+              <Link href="about-us">
                 <a className="btn btn-link d-inline-flex align-items-center">
-                  <i className="fa fa-angle-right m-r10"></i>Learn More
+                  <i className="fa fa-angle-right m-r10"></i>Know more
                 </a>
               </Link>
             </div>

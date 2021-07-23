@@ -46,8 +46,9 @@ function Careers() {
         <section className="content-inner">
           <div className="container">
             <div className="section-head style-3 text-center mb-4">
-              <h2 className="title">Jobs Available</h2>
+              <h2 className="title">GROW WITH US</h2>
               <div className="dlab-separator style-2 bg-primary"></div>
+              <h4>“ONLY TALENT MATTERS HERE”</h4>
             </div>
             <div className="row">
               <Job

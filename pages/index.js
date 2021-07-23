@@ -8,9 +8,9 @@ import Banner from "../element/Home/Banner";
 import Clients from "../element/Home/Clients";
 import Service from "../element/Home/Service";
 import AboutUs from "../element/Home/AboutUs";
-import Counter from "../element/Home/Counter";
+// import Counter from "../element/Home/Counter";
 import Features from "../element/Home/Features";
-import Projects from "../element/Home/Projects";
+// import Projects from "../element/Home/Projects";
 import Newsletter from "../element/Home/Newsletter";
 import Offices from "../element/Home/Offices";
 import Quote from "../element/Home/Quote";
@@ -25,19 +25,19 @@ function Home() {
       <Header />
       <div className="page-content bg-white" id="top">
         <Banner />
-        <Clients />
         <Service />
         <AboutUs />
-        <Counter />
+        {/* <Counter /> */}
         <Features />
-        <Projects />
-        <Newsletter />
+        {/* <Projects /> */}
+        {/* <Newsletter /> */}
         <Offices />
+        <Clients />
         {/* <Pricing />
         <Testimonial />
         <Blog /> */}
         <Quote />
-        <Cta />
+        {/* <Cta /> */}
       </div>
       <Footer />
     </>

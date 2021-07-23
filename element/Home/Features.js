@@ -11,11 +11,9 @@ function Features() {
             >
               <div className="section-head style-1">
                 <h6 className="sub-title bgl-primary m-b20 text-primary">
-                  Fetures
+                  Why Us
                 </h6>
-                <h2 className="title">
-                  Our Working Process To Help Your Boost Your Business
-                </h2>
+                <h2 className="title">Why To Choose us</h2>
               </div>
               <div className="section-wraper-one">
                 <div className="icon-bx-wraper style-2 left m-b30">
@@ -25,40 +23,35 @@ function Features() {
                     </a>
                   </div>
                   <div className="icon-content">
-                    <h4 className="dlab-title">Idea & Analysis Gathering</h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
+                    <h4 className="dlab-title">Innovation</h4>
+                    <p>Innovation happens when right people join together.</p>
                   </div>
                 </div>
                 <div className="icon-bx-wraper style-2 left m-b30">
                   <div className="icon-bx-md radius bg-white text-yellow">
                     <a href="javascript:void(0);" className="icon-cell">
-                      <i className="flaticon-line-graph"></i>
+                      <i className="fa fa-handshake-o"></i>
                     </a>
                   </div>
                   <div className="icon-content">
-                    <h4 className="dlab-title">Designing & Developing</h4>
+                    <h4 className="dlab-title">Quality over Quantity</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et.
+                      We value your time and investment thus we work with prior
+                      motto “Quality over Quantity”
                     </p>
                   </div>
                 </div>
                 <div className="icon-bx-wraper style-2 left m-b30">
                   <div className="icon-bx-md radius bg-white text-green">
                     <a href="javascript:void(0);" className="icon-cell">
-                      <i className="flaticon-rocket"></i>
+                      <i className="flaticon-clock"></i>
                     </a>
                   </div>
                   <div className="icon-content">
-                    <h4 className="dlab-title">Testing & Lunching</h4>
+                    <h4 className="dlab-title">Delivery</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Our team never fails to meet the deadline as we know -on
+                      time is always a mark of professionalism.
                     </p>
                   </div>
                 </div>

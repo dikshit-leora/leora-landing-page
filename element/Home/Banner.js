@@ -21,19 +21,21 @@ function Banner() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  We are The Best
+                  Explore digital revolution with us
                 </h6>
-                <h1
+                <h2
                   className="wow fadeInUp m-b20"
                   data-wow-delay="1s"
                   style={{
                     visibility: "visible",
                     animationDelay: "1s",
                     animationName: "fadeInUp",
+                    color: "white",
                   }}
                 >
-                  We Provide Website Solution For You
-                </h1>
+                  Searching for efficient software expertise that meets your
+                  needs. We are here to help you
+                </h2>
                 <p
                   className="wow fadeInUp m-b30"
                   data-wow-delay="1.5s"
@@ -43,12 +45,13 @@ function Banner() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  Mauris in enim sollicitudin quam sollicitudin fermentum ut
-                  vitae massa. Donec venenatis accumsan nisi, sit amet maximus
-                  velit euismod sit amet. Vivamus et sem sed ipsum pretium
-                  lobortis non vitae sem.
+                  We understand how technology plays a vital role in building
+                  the future of a company. From web app development, IT
+                  consulting to digital marketing and branding - we provide all
+                  kinds of IT services that helps the growth of your
+                  organization.
                 </p>
-                <a
+                {/* <a
                   href="about-us-2.html"
                   className="wow fadeInUp btn btn-light text-primary shadow rounded-xl"
                   data-wow-delay="2s"
@@ -59,7 +62,7 @@ function Banner() {
                   }}
                 >
                   Learn More
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

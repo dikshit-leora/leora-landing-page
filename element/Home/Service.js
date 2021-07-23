@@ -21,9 +21,9 @@ function Service() {
         <div className="container">
           <div className="section-head style-1 text-center">
             <h6 className="sub-title bgl-primary m-b20 text-primary">
-              Services
+              Solutions
             </h6>
-            <h2 className="title">Provide Awesome Service To You</h2>
+            <h2 className="title">WHAT WE DO</h2>
           </div>
           <div className="row">
             <div
@@ -41,15 +41,14 @@ function Service() {
               >
                 <div className="icon-bx-md radius bg-yellow shadow-yellow">
                   <a href="javascript:void(0);" className="icon-cell">
-                    <i className="flaticon-office"></i>
+                    <i className="flaticon-coding"></i>
                   </a>
                 </div>
                 <div className="icon-content">
-                  <h4 className="dlab-title">Strategy & Research</h4>
+                  <h4 className="dlab-title">Software development</h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                    Our expertise provides right technology and tools to develop
+                    most engaging software’s.
                   </p>
                 </div>
               </div>
@@ -69,15 +68,16 @@ function Service() {
               >
                 <div className="icon-bx-md radius bg-red shadow-red">
                   <a href="javascript:void(0);" className="icon-cell">
-                    <i className="flaticon-website"></i>
+                    <i className="flaticon-promotion"></i>
                   </a>
                 </div>
                 <div className="icon-content">
-                  <h4 className="dlab-title">Web Development</h4>
+                  <h4 className="dlab-title">
+                    Consulting and Digital marketing
+                  </h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                    Marketing always remains key foundation for every business.
+                    We offer IT consulting, Digital marketing and Branding
                   </p>
                 </div>
               </div>
@@ -101,11 +101,12 @@ function Service() {
                   </a>
                 </div>
                 <div className="icon-content">
-                  <h4 className="dlab-title">Web Solution</h4>
+                  <h4 className="dlab-title">Other Services</h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                    We are delighted to have your trust in us, at the same time
+                    we realize our commitments towards you. Thus, we have taken
+                    an initiative to serve our knowledge in Construction,
+                    Health, BANKING, RETAIL.
                   </p>
                 </div>
               </div>
