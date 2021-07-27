@@ -11,10 +11,10 @@ import AboutUs from "../element/Home/AboutUs";
 // import Counter from "../element/Home/Counter";
 import Features from "../element/Home/Features";
 // import Projects from "../element/Home/Projects";
-import Newsletter from "../element/Home/Newsletter";
-import Offices from "../element/Home/Offices";
+// import Newsletter from "../element/Home/Newsletter";
+// import Offices from "../element/Home/Offices";
 import Quote from "../element/Home/Quote";
-import Cta from "../element/Home/Cta";
+// import Cta from "../element/Home/Cta";
 
 function Home() {
   useEffect(() => {
@@ -31,7 +31,7 @@ function Home() {
         <Features />
         {/* <Projects /> */}
         {/* <Newsletter /> */}
-        <Offices />
+        {/* <Offices /> */}
         <Clients />
         {/* <Pricing />
         <Testimonial />

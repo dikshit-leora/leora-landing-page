@@ -42,14 +42,14 @@ function OfficesSlider() {
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
               <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                <img src="images/Offices/coimbatore.jpg" alt="" />
+                <img src="images/Offices/bangalore.png" alt="" />
               </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h3 className="dlab-name">
                   <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                    Coimbatore
+                    Bangalore
                   </a>
                 </h3>
                 {/* <span className="dlab-position">Senior Designer</span> */}
@@ -65,7 +65,7 @@ function OfficesSlider() {
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
               <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                <img src="images/Offices/dubai.jpg" alt="" />
+                <img src="images/Offices/dubai.png" alt="" />
               </a>
             </div>
             <div className="dlab-content">
@@ -88,14 +88,14 @@ function OfficesSlider() {
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
               <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                <img src="images/Offices/kochi.jpg" alt="" />
+                <img src="images/Offices/kochi.png" alt="" />
               </a>
             </div>
             <div className="dlab-content">
               <div className="clearfix">
                 <h3 className="dlab-name">
                   <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                    Kochi
+                    Kochin
                   </a>
                 </h3>
                 {/* <span className="dlab-position">Senior Designer</span> */}
@@ -111,30 +111,7 @@ function OfficesSlider() {
           <div className="dlab-team style-2 m-b10">
             <div className="dlab-media">
               <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                <img src="images/Offices/muscat.jpg" alt="" />
-              </a>
-            </div>
-            <div className="dlab-content">
-              <div className="clearfix">
-                <h3 className="dlab-name">
-                  <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                    Muscat
-                  </a>
-                </h3>
-                {/* <span className="dlab-position">Senior Designer</span> */}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="item wow fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="0.5s"
-        >
-          <div className="dlab-team style-2 m-b10">
-            <div className="dlab-media">
-              <a href="javascript:void(0);" style={{ cursor: "default" }}>
-                <img src="images/Offices/muscat.jpg" alt="" />
+                <img src="images/Offices/muscat.png" alt="" />
               </a>
             </div>
             <div className="dlab-content">

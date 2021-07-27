@@ -48,7 +48,10 @@ function Careers() {
             <div className="section-head style-3 text-center mb-4">
               <h2 className="title">GROW WITH US</h2>
               <div className="dlab-separator style-2 bg-primary"></div>
+              <br />
+              <br />
               <h4>“ONLY TALENT MATTERS HERE”</h4>
+              <br />
             </div>
             <div className="row">
               <Job
