@@ -14025,7 +14025,8 @@ button.scroltop {
 
 .clients-logo {
   padding: 20px 30px;
-  height: 100px;
+  /* height: 100%; */
+  /* margin: auto 0; */
   display: flex;
   align-items: center;
   border-radius: 10px;
