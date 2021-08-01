@@ -5,7 +5,7 @@ import ModalVideo from "react-modal-video";
 import Link from "next/link";
 import WeOffer from "../element/Services/UIUXServices/WeOffer";
 
-function ServicesDetails1() {
+function UIUX() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
@@ -164,4 +164,4 @@ function ServicesDetails1() {
   );
 }
 
-export default ServicesDetails1;
+export default UIUX;
