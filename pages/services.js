@@ -148,7 +148,7 @@ function Services() {
                 data-wow-delay="0.4s"
               >
                 <div className="dlab-media">
-                  <img src="images/about/img5.png" className="move-2" alt="" />
+                  <img src="images/services/1.gif" className="move-2" alt="" />
                 </div>
               </div>
             </div>
