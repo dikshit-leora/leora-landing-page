@@ -112,7 +112,11 @@ function Industries() {
                 data-wow-delay="0.6s"
               >
                 <div className="dz-media text-center m-b30">
-                  <img src="images/about/img7.png" className="move-4" alt="" />
+                  <img
+                    src="images/industries/1.gif"
+                    className="move-4"
+                    alt=""
+                  />
                 </div>
               </div>
               <div className="col-lg-4">
