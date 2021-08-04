@@ -18,7 +18,15 @@ function Header() {
               <div className="logo-header mostion logo-dark">
                 <Link href="/">
                   <a>
-                    <img src="images/logo.png" alt="" />
+                    <img
+                      style={{
+                        backgroundColor: "white",
+                        borderRadius: "30px 1px 30px",
+                        padding: "5px 0",
+                      }}
+                      src="images/logo.png"
+                      alt=""
+                    />
                   </a>
                 </Link>
               </div>
