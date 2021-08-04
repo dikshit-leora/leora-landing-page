@@ -13,7 +13,7 @@ import Features from "../element/Home/Features";
 // import Projects from "../element/Home/Projects";
 // import Newsletter from "../element/Home/Newsletter";
 // import Offices from "../element/Home/Offices";
-import Quote from "../element/Home/Quote";
+import ContactUsForm from "../element/ContactUs/ContactUsForm";
 // import Cta from "../element/Home/Cta";
 
 function Home() {
@@ -36,7 +36,7 @@ function Home() {
         {/* <Pricing />
         <Testimonial />
         <Blog /> */}
-        <Quote />
+        <ContactUsForm />
         {/* <Cta /> */}
       </div>
       <Footer />

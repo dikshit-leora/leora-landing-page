@@ -4,7 +4,7 @@ function onChange(value) {
   console.log("Captcha value:", value);
 }
 
-function ContactUs() {
+function ContactUsForm() {
   return (
     <>
       <section
@@ -201,4 +201,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default ContactUsForm;
