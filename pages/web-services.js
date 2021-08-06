@@ -47,10 +47,7 @@ function WebAppDevelopment() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="dlab-media m-b30 rounded-md">
-                  <img
-                    src="images/banner/Services/web_development.png"
-                    alt=""
-                  />
+                  <img src="images/services/web_dev.jpg" alt="" />
                 </div>
                 <div className="dlab-content">
                   <div className="m-b40">

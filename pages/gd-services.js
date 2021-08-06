@@ -47,7 +47,7 @@ function ServicesDetails1() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="dlab-media m-b30 rounded-md">
-                  <img src="images/banner/Services/graphic_design.png" alt="" />
+                  <img src="images/services/graphic_design.jpg" alt="" />
                 </div>
                 <div className="dlab-content">
                   <div className="m-b40">

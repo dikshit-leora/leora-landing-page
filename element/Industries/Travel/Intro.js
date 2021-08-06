@@ -7,7 +7,11 @@ function Intro() {
           <div className="row">
             <div className="col-lg-6 m-b30">
               <div className="dz-media">
-                <img src="images/about/img6.png" className="move-2" alt="" />
+                <img
+                  src="images/industries/travel.gif"
+                  className="move-2"
+                  alt=""
+                />
               </div>
             </div>
             <div className="col-lg-6">
