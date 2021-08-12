@@ -38,7 +38,7 @@ function ContactUs1() {
         <ContactUsForm />
 
         {/* <!-- Call To action --> */}
-        <section
+        {/* <section
           style={{
             backgroundImage: "url(images/background/bg5.jpg)",
             backgroundSize: "cover",
@@ -74,7 +74,7 @@ function ContactUs1() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
       <Footer />
     </>
