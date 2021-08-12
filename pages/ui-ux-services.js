@@ -62,8 +62,7 @@ function UIUX() {
                       interaction a delightful user experience. We have a
                       specialized UI/UX team with a decade of experience who dig
                       deep to understand your exact business needs. We have a
-                      fortune of serving more than ____ companies by our
-                      service.
+                      fortune of serving more than 100 companies by our service.
                     </p>
                   </div>
                   <div className="row">
