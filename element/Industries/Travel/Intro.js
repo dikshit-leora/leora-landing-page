@@ -5,7 +5,7 @@ function Intro() {
       <section className="content-inner bg-gray">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 m-b30">
+            <div className="col-lg-6 m-b30 d-flex justify-content-center align-items-center">
               <div className="dz-media">
                 <img
                   src="images/industries/travel.gif"

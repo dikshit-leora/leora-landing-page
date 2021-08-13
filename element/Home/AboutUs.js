@@ -33,7 +33,7 @@ function AboutUs() {
                 software solutions that can untangle their complex issues.
               </p>
               <p className="m-b30">
-                Thus, with this initiative, we started the Leora LLP solution
+                Thus, with this initiative, we started the Leora Solutions LLP
                 where the client will be our success partner and will work
                 together as a team for finding the solution for real-life
                 problems.

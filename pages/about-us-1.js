@@ -67,7 +67,7 @@ function AboutUs1() {
                     About Us
                   </h6>
                   <h2 className="title">
-                    How We Can Help You Achieve Your Business Goal
+                    How we help you to achieve your business goals
                   </h2>
                 </div>
                 <p>

@@ -5,7 +5,7 @@ function Intro() {
       <section className="content-inner bg-gray">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 m-b30">
+            <div className="col-lg-6 m-b30 d-flex justify-content-center align-items-center">
               <div className="dz-media">
                 <img
                   src="images/industries/education.gif"
@@ -31,8 +31,8 @@ function Intro() {
                 simplify the data gathering process, improve resource
                 management. Thus, will let you save money and resources which
                 you can utilize to build young minds. Leora recognizes your
-                project potential and is proud to have over 8 years of
-                experience in helping education institutes like yours make a
+                project potential and are proud to have over 8 years of
+                experience in helping education institutes like yours to make a
                 real impact. We deliver scalable software solutions which
                 eliminate the need for constant up-gradation. We are also aware
                 of how a complicated system can adversely affect your

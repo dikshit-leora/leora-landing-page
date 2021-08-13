@@ -69,7 +69,7 @@ function Footer() {
                 <div className="widget widget_about">
                   <h5 className="footer-title">About Us</h5>
                   <p>
-                    We established Leora LLP Solutions in the year 2014.
+                    We established Leora Solutions LLP in the year 2014.
                     Initially, we started with a small team and were focusing on
                     IT consulting and Web hosting.
                   </p>

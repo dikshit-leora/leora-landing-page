@@ -65,17 +65,17 @@ function AboutUs() {
                     WHO WE ARE ?
                   </h6>
                   <h2 className="title">
-                    How We Can Help You Achieve Your Business Goal
+                    How we help you to achieve your business goals
                   </h2>
                 </div>
                 <p>
-                  We established Leora LLP Solutions in the year 2014.
+                  We established Leora Solutions LLP in the year 2014.
                   Initially, we started with a small team and were focusing on
                   IT consulting and Web hosting.
                 </p>
                 <p className="m-b30">
-                  But as we gained experience and many talented members joined
-                  us, we could expand our services to mobile application
+                  As we gained experience and many talented members joined us,
+                  we could expand our services to mobile application
                   development, ERP’s, branding, and technology. However, today
                   more than 500 companies are happy with our commitment and
                   services.

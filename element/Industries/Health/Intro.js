@@ -5,7 +5,7 @@ function Intro() {
       <section className="content-inner bg-gray">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 m-b30">
+            <div className="col-lg-6 m-b30 d-flex justify-content-center align-items-center">
               <div className="dz-media">
                 <img
                   src="images/industries/health.gif"
@@ -31,7 +31,7 @@ function Intro() {
                 professionals, and patients. With the utilization of the latest
                 technology, we thrive to build custom software that will focus
                 on attributes like easier access to medical records, patient
-                confidentiality, accurate cost monitoring, etc. Teaming with the
+                confidentiality, accurate cost monitoring etc. Teaming with the
                 right choice can boost your audience’s interest in you.
               </p>
             </div>

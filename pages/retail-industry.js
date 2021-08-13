@@ -65,7 +65,8 @@ function Retail() {
                   <p>
                     Procurement management - guides you to maintain all the
                     activity involved in managing material, product, goods, and
-                    supply. E-auction platform- Take the advantage of bidding
+                    supply.
+                    <br /> E-auction platform- Take the advantage of bidding
                     before potential buyers start bidding on it.
                   </p>
                 </div>

@@ -2,7 +2,6 @@ import Footer from "../layout/footer";
 import Header from "../layout/header";
 import { useState } from "react";
 import IndustryTiles from "../element/Industries/IndustryTiles";
-import FromClient from "../element/Industries/FromClient";
 import Link from "next/link";
 
 function Industries() {
@@ -177,7 +176,7 @@ function Industries() {
             </div>
           </div>
         </section>
-        <FromClient />
+        {/* <FromClient /> */}
       </div>
       <Footer />
     </>
