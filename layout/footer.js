@@ -207,7 +207,7 @@ function Footer() {
                 <span className="copyright-text">
                   Copyright © 2021{" "}
                   <a href="https://dexignzone.com/" target="_blank">
-                    DexignZone
+                    Leora Solutions LLP
                   </a>
                   . All rights reserved.
                 </span>
