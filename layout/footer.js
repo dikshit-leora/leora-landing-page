@@ -30,7 +30,7 @@ function Footer() {
                     </a>
                   </div>
                 </div>
-                <div className="col-xl-3 col-md-4 col-sm-6">
+                {/* <div className="col-xl-3 col-md-4 col-sm-6">
                   <div className="icon-bx-wraper left m-b10">
                     <div className="icon-lg">
                       <a href="javascript:void(0);" className="icon-cell">
@@ -45,8 +45,8 @@ function Footer() {
                       </p>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-3 col-md-4 col-sm-6">
+                </div> */}
+                <div className="col-xl-6 col-md-8 col-sm-12">
                   <div className="icon-bx-wraper left m-b10">
                     <div className="icon-lg">
                       <a href="javascript:void(0);" className="icon-cell">
@@ -54,7 +54,10 @@ function Footer() {
                       </a>
                     </div>
                     <div className="icon-content">
-                      <p>Marmora Road Chi Minh City, Vietnam</p>
+                      <p>
+                        HDS Business Centre Tower, Cluster M1, 33rd Floor,
+                        Jumeirah Lake Towers, Dubai, Dubai
+                      </p>
                     </div>
                   </div>
                 </div>
