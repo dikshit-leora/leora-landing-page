@@ -1,10 +1,43 @@
 // import ReCAPTCHA from "react-google-recaptcha";
 
+import { useState } from "react";
+
 // function onChange(value) {
 //   console.log("Captcha value:", value);
 // }
 
 function ContactUsForm() {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    service: "",
+    message: "",
+  });
+
+  const changeHandler = ({ target: { name, value } }) => {
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const onSubmit = (event) => {
+    event.preventDefault();
+    document.location.href =
+      "mailto:sales@leora.ae?subject=" +
+      encodeURIComponent(formData.email ? `Email from ${formData.email}` : "") +
+      "&body=" +
+      encodeURIComponent(`
+        Name: ${formData.firstName || ""} ${formData.lastName || ""},\n
+        Email: ${formData.email || ""},\n
+        Phone Number: ${formData.phone || ""},\n
+        service: ${formData.service || ""},\n
+        message: ${formData.message || ""}\n
+        `);
+  };
+
   return (
     <>
       <section
@@ -26,11 +59,7 @@ function ContactUsForm() {
                   We Love To Help Great Companies To Enlarge Their Revenues.
                 </h2>
               </div>
-              <form
-                className="dlab-form dzForm"
-                method="POST"
-                action="script/contact.php"
-              >
+              <form className="dlab-form dzForm" onSubmit={onSubmit}>
                 <div className="dzFormMsg"></div>
                 <input
                   type="hidden"
@@ -47,9 +76,11 @@ function ContactUsForm() {
                         </span>
                       </div>
                       <input
-                        name="dzName"
+                        name="firstName"
                         type="text"
                         required
+                        value={formData.firstName}
+                        onChange={changeHandler}
                         className="form-control"
                         placeholder="First Name"
                       />
@@ -63,7 +94,9 @@ function ContactUsForm() {
                         </span>
                       </div>
                       <input
-                        name="dzOther[last_name]"
+                        name="lastName"
+                        value={formData.lastName}
+                        onChange={changeHandler}
                         type="text"
                         className="form-control"
                         required
@@ -79,7 +112,9 @@ function ContactUsForm() {
                         </span>
                       </div>
                       <input
-                        name="dzEmail"
+                        name="email"
+                        value={formData.email}
+                        onChange={changeHandler}
                         type="text"
                         required
                         className="form-control"
@@ -95,8 +130,10 @@ function ContactUsForm() {
                         </span>
                       </div>
                       <input
-                        name="dzOther[phone]"
-                        type="text"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={changeHandler}
+                        type="number"
                         required
                         className="form-control"
                         placeholder="Phone No."
@@ -119,18 +156,28 @@ function ContactUsForm() {
                         </span>
                       </div>
                       <select
-                        name="dzOther[choose_service]"
+                        name="service"
+                        value={formData.service}
+                        onChange={changeHandler}
                         className="form-control"
                         required
                       >
                         <option selected>Choose Service</option>
-                        <option value="1">Web App Development</option>
-                        <option value="2">Mobile App Development</option>
-                        <option value="3">IT Consulting</option>
-                        <option value="3">Custom ERP Development</option>
-                        <option value="3">UI / UX</option>
-                        <option value="3">Graphic Designing</option>
-                        <option value="3">
+                        <option value="Web App Development">
+                          Web App Development
+                        </option>
+                        <option value="Mobile App Development">
+                          Mobile App Development
+                        </option>
+                        <option value="IT Consulting">IT Consulting</option>
+                        <option value="Custom ERP Development">
+                          Custom ERP Development
+                        </option>
+                        <option value="UI / UX">UI / UX</option>
+                        <option value="Graphic Designing">
+                          Graphic Designing
+                        </option>
+                        <option value="Digital Marketing And Branding">
                           Digital Marketing And Branding
                         </option>
                       </select>
@@ -144,14 +191,16 @@ function ContactUsForm() {
                         </span>
                       </div>
                       <textarea
-                        name="dzMessage"
+                        name="message"
+                        value={formData.message}
+                        onChange={changeHandler}
                         required
                         className="form-control"
                         placeholder="Message"
                       ></textarea>
                     </div>
                   </div>
-                  <div className="col-sm-12">
+                  {/* <div className="col-sm-12">
                     <div className="input-group">
                       <div
                         className="g-recaptcha"
@@ -167,7 +216,7 @@ function ContactUsForm() {
                         data-error="Please complete the Captcha"
                       />
                     </div>
-                  </div>
+                  </div> */}
                   {/* <ReCAPTCHA
                     sitekey="6LefsVUUAAAAADBPsLZzsNnETChealv6PYGzv3ZN"
                     onChange={onChange}
