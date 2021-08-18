@@ -228,7 +228,7 @@ function AboutUs() {
                 data-wow-delay="0.4s"
               >
                 <div className="video-bx style-3">
-                  <img src="images/video/pic3.jpg" alt="" />
+                  <img src="images/video/intro-thumb.png" alt="" />
                   <div className="video-btn">
                     <a
                       href="#"

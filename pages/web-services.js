@@ -96,7 +96,7 @@ function WebAppDevelopment() {
                     </div>
                     <div className="col-lg-6">
                       <div className="video-bx style-3">
-                        <img src="images/video/pic3.jpg" alt="" />
+                        <img src="images/video/intro-thumb.png" alt="" />
                         <div className="video-btn">
                           <a
                             href="#"
