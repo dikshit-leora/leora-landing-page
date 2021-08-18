@@ -97,7 +97,8 @@ function Health() {
                     </a>
                   </div>
                   <ModalVideo
-                    channel="youtube"
+                    channel="custom"
+                    url="https://leora-solutions.s3.ap-south-1.amazonaws.com/landing/videos/intro.mp4"
                     autoplay
                     isOpen={isOpen}
                     videoId="FzcfZyEhOoI"

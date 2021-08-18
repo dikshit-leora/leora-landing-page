@@ -12,7 +12,11 @@ function AboutUs() {
               data-wow-delay="0.2s"
             >
               <div className="dz-media">
-                <img src="images/homepage/1.gif" className="move-1" alt="" />
+                <img
+                  src="https://leora-solutions.s3.ap-south-1.amazonaws.com/landing/homepage/1.gif"
+                  className="move-1"
+                  alt=""
+                />
               </div>
             </div>
             <div

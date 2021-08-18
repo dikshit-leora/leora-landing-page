@@ -8,7 +8,7 @@ function Intro() {
             <div className="col-lg-6 m-b30 d-flex justify-content-center align-items-center">
               <div className="dz-media">
                 <img
-                  src="images/industries/construction.gif"
+                  src="https://leora-solutions.s3.ap-south-1.amazonaws.com/landing/industries/construction.gif"
                   className="move-2"
                   alt=""
                 />

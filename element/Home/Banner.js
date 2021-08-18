@@ -71,7 +71,10 @@ function Banner() {
         </div>
       </div>
       <div className="dz-media">
-        <img src="images/homepage/banner.png" alt />
+        <img
+          src="https://leora-solutions.s3.ap-south-1.amazonaws.com/landing/homepage/banner.png"
+          alt
+        />
       </div>
     </div>
   );

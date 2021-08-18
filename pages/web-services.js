@@ -47,7 +47,10 @@ function WebAppDevelopment() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="dlab-media m-b30 rounded-md">
-                  <img src="images/services/web_dev.png" alt="" />
+                  <img
+                    src="https://leora-solutions.s3.ap-south-1.amazonaws.com/landing/services/web_dev.png"
+                    alt=""
+                  />
                 </div>
                 <div className="dlab-content">
                   <div className="m-b40">
@@ -117,7 +120,9 @@ function WebAppDevelopment() {
 
         {/* <!-- WeOffer --> */}
         <WeOffer />
-        <h3 className="text-center">“BUILD APP LIKE NEVER BEFORE”</h3>
+        <h3 className="text-center">
+          "CONNECT YOUR CUSTOMER WITH SMART TECHNOLOGY"
+        </h3>
         <br />
         <br />
         <br />

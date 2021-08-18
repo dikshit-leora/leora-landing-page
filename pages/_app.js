@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Slider from "react-rangeslider";
+import Head from "next/head";
 import "react-rangeslider/lib/index.css";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
@@ -48,6 +48,9 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <title>Leora</title>
+      </Head>
       <div className="page-wraper">
         <Component {...pageProps} />
       </div>

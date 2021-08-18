@@ -63,7 +63,11 @@ function Features() {
               data-wow-delay="0.4s"
             >
               <div className="dlab-media">
-                <img src="images/homepage/2.gif" className="move-2" alt="" />
+                <img
+                  src="https://leora-solutions.s3.ap-south-1.amazonaws.com/landing/homepage/2.gif"
+                  className="move-2"
+                  alt=""
+                />
               </div>
             </div>
           </div>

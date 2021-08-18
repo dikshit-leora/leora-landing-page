@@ -47,7 +47,10 @@ function UIUX() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="dlab-media m-b30 rounded-md">
-                  <img src="images/services/UI.png" alt="" />
+                  <img
+                    src="https://leora-solutions.s3.ap-south-1.amazonaws.com/landing/services/UI.png"
+                    alt=""
+                  />
                 </div>
                 <div className="dlab-content">
                   <div className="m-b40">

@@ -30,7 +30,7 @@ function Footer() {
                     </a>
                   </div>
                 </div>
-                {/* <div className="col-xl-3 col-md-4 col-sm-6">
+                <div className="col-xl-3 col-md-4 col-sm-6">
                   <div className="icon-bx-wraper left m-b10">
                     <div className="icon-lg">
                       <a href="javascript:void(0);" className="icon-cell">
@@ -39,14 +39,14 @@ function Footer() {
                     </div>
                     <div className="icon-content">
                       <p>
-                        +91 987-654-3210
+                        info@leora.ae
                         <br />
-                        info@example.com
+                        sales@leora.ae
                       </p>
                     </div>
                   </div>
-                </div> */}
-                <div className="col-xl-6 col-md-8 col-sm-12">
+                </div>
+                <div className="col-xl-5 col-md-4 col-sm-6">
                   <div className="icon-bx-wraper left m-b10">
                     <div className="icon-lg">
                       <a href="javascript:void(0);" className="icon-cell">
@@ -207,7 +207,7 @@ function Footer() {
                 <span className="copyright-text">
                   Copyright © 2021{" "}
                   <a href="https://dexignzone.com/" target="_blank">
-                    Leora Solutions LLP
+                    Leora
                   </a>
                   . All rights reserved.
                 </span>

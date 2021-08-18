@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Head from "next/head";
 // import Pricing from "../element/pricing";
 // import Blog from "../element/blog";
 // import Testimonial from "../element/testimonial";
@@ -22,6 +23,9 @@ function Home() {
   }, []);
   return (
     <>
+      <Head>
+        <title>Leora</title>
+      </Head>
       <Header />
       <div className="page-content bg-white" id="top">
         <Banner />
