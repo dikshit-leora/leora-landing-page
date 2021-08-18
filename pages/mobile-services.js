@@ -4,11 +4,15 @@ import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
 import WeOffer from "../element/Services/MobileServices/WeOffer";
+import Head from "next/head";
 
 function ServicesDetails1() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <title>Leora - Mobile Services</title>
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}
@@ -124,10 +128,11 @@ function ServicesDetails1() {
                           </a>
                         </div>
                         <ModalVideo
-                          channel="youtube"
+                          channel="custom"
+                          url="https://leora-solutions.s3.ap-south-1.amazonaws.com/landing/videos/intro.mp4"
                           autoplay
                           isOpen={isOpen}
-                          videoId="UpolBSznWp0"
+                          videoId="FzcfZyEhOoI"
                           onClose={() => setOpen(false)}
                         />
                       </div>

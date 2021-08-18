@@ -8,11 +8,15 @@ import TeamSlider from "../component/teamSlider";
 // import Blog from '../element/blog';
 import Link from "next/link";
 import Quote from "../element/quote";
+import Head from "next/head";
 
 function AboutUs() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <title>Leora - About Us</title>
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}

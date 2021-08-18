@@ -4,11 +4,15 @@ import ModalVideo from "react-modal-video";
 import Intro from "../element/Industries/Retail/Intro";
 import Footer from "../layout/footer";
 import Header from "../layout/header";
+import Head from "next/head";
 
 function Retail() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <title>Leora - Retail & Ecommerce</title>
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}

@@ -2,10 +2,14 @@ import Link from "next/link";
 import ContactUsForm from "../element/ContactUs/ContactUsForm";
 import Footer from "../layout/footer";
 import Header from "../layout/header";
+import Head from "next/head";
 
 function ContactUs1() {
   return (
     <>
+      <Head>
+        <title>Leora - Contact Us</title>
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}

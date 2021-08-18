@@ -4,11 +4,15 @@ import ModalVideo from "react-modal-video";
 import Intro from "../element/Industries/Banking/Intro";
 import Footer from "../layout/footer";
 import Header from "../layout/header";
+import Head from "next/head";
 
 function Banking() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <title>Leora - Banking</title>
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}

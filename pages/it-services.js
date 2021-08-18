@@ -2,13 +2,16 @@ import Footer from "../layout/footer";
 import Header from "../layout/header";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
-import AllServices from "../element/all-services";
 import Link from "next/link";
+import Head from "next/head";
 
 function ServicesDetails1() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <title>Leora - IT Services</title>
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}
@@ -102,10 +105,11 @@ function ServicesDetails1() {
                           </a>
                         </div>
                         <ModalVideo
-                          channel="youtube"
+                          channel="custom"
+                          url="https://leora-solutions.s3.ap-south-1.amazonaws.com/landing/videos/intro.mp4"
                           autoplay
                           isOpen={isOpen}
-                          videoId="UpolBSznWp0"
+                          videoId="FzcfZyEhOoI"
                           onClose={() => setOpen(false)}
                         />
                       </div>

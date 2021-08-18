@@ -1,8 +1,8 @@
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
 
-function onChange(value) {
-  console.log("Captcha value:", value);
-}
+// function onChange(value) {
+//   console.log("Captcha value:", value);
+// }
 
 function ContactUsForm() {
   return (
@@ -168,10 +168,10 @@ function ContactUsForm() {
                       />
                     </div>
                   </div>
-                  <ReCAPTCHA
+                  {/* <ReCAPTCHA
                     sitekey="6LefsVUUAAAAADBPsLZzsNnETChealv6PYGzv3ZN"
                     onChange={onChange}
-                  />
+                  /> */}
                   <div className="col-sm-12 mt-2">
                     <button
                       name="submit"

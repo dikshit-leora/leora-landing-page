@@ -4,11 +4,15 @@ import ModalVideo from "react-modal-video";
 import Intro from "../element/Industries/Health/Intro";
 import Footer from "../layout/footer";
 import Header from "../layout/header";
+import Head from "next/head";
 
 function Health() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <title>Leora - Health</title>
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}

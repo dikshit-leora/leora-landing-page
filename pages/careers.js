@@ -5,11 +5,15 @@ import { Modal } from "react-bootstrap";
 import { useState } from "react";
 import JobForm from "../element/Job/JobForm";
 import Footer from "../layout/footer";
+import Head from "next/head";
 
 function Careers() {
   const [open, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <title>Leora - Careers</title>
+      </Head>
       {open && (
         <Modal show={open} onHide={() => setOpen(false)} animation>
           <JobForm />
